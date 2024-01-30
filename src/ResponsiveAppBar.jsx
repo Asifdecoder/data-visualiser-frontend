@@ -41,11 +41,13 @@ function ResponsiveAppBar() {
         <Toolbar disableGutters>
          
           {
-            <img src="https://blackcoffer.com/wp-content/uploads/2023/10/Black-720x172-4.png" alt="none" style={{
+            <img src="https://media.istockphoto.com/id/1035399110/vector/blockchain-bitcoin-icon.jpg?s=612x612&w=0&k=20&c=OOMeer3q-ZxhGQTOwbOin2v2Ga7wbyCquuo77jDvQak=" alt="none" style={{
                 height: '40px',  
                 marginRight: '2px',
+                borderRadius:'5px',
                 display: { xs: 'none', md: 'flex' },
-                filter:'invert(1)',
+               
+                // filter:'invert(1)',
               }} />
           }
 
