@@ -44,7 +44,8 @@ function ResponsiveAppBar() {
             <img src="https://media.istockphoto.com/id/1035399110/vector/blockchain-bitcoin-icon.jpg?s=612x612&w=0&k=20&c=OOMeer3q-ZxhGQTOwbOin2v2Ga7wbyCquuo77jDvQak=" alt="none" style={{
                 height: '40px',  
                 marginRight: '2px',
-                borderRadius:'5px',
+                borderRadius:'7px',
+                marginLeft: '124px',
                 display: { xs: 'none', md: 'flex' },
                
                 // filter:'invert(1)',
