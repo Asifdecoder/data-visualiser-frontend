@@ -11,7 +11,7 @@ const RegionChart = () => {
 
        async function fetchapi(){
 
-            let response = await fetch('http://localhost:8080/api/jsondata')
+            let response = await fetch('https://visualiser-iaab.onrender.com/api/jsondata')
             let data = await response.json()
             setData(data);
          
